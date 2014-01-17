@@ -1,0 +1,115 @@
+==================================================
+Changes from 2012-08-15 00:00:00 +0000 to present.
+==================================================
+
+----------------------------------------
+version 0.6 at 2013-08-15 06:14:00 +0000
+----------------------------------------
+
+  Change: 55df7f92990d6816ba9bc09fb9da1d9fd648fd94
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-15 10:13:26 +0000
+
+    Changelog 
+
+  Change: 69fb3de389fbafed4381597c280f6e305f7dc5f3
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-14 04:26:05 +0000
+
+    Merge pull request #4 from bessarabov/date_expansion
+
+    The ability to expand %qbit::Date::TR_HS 
+
+  Change: 02dcf760d6e52a6d7b2e5568465b5ccb4839355b
+  Author: Ivan Bessarabov <ivan@bessarabov.ru>
+  Date : 2013-08-14 14:34:10 +0000
+
+    The ability to expand %qbit::Date::TR_HS 
+
+  Change: fc0e21a500a8d2cfc73711e3591ffb32219582ce
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-10 10:12:08 +0000
+
+    Merge branch 'master' of github.com:QBitFramework/qbit 
+
+  Change: ceec430d51ccc4846785674e2528936e8b8bd422
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-10 10:11:11 +0000
+
+    Added use gettext_pp by default 
+
+  Change: 6f08172517721631550c5d6460fe4f32085a4d09
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-07 19:26:40 +0000
+
+    Fixed changelog 
+
+  Change: b70c0ad0180d864338709fd5c638e6880b3ecb2e
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 21:06:09 +0000
+
+    Removed smart mathing in qbit::Date 
+
+  Change: 938d267dd82d01127303c7a7a528dcb7f4c019a8
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:46:46 +0000
+
+    Moved packages from pragmaqbit to qbit 
+
+  Change: 469e492e601326359c81f0feadf349304834628d
+  Author: Ivan Bessarabov <ivan@bessarabov.ru>
+  Date : 2013-08-06 20:14:29 +0000
+
+    Added files to test project with Travis CI 
+
+  Change: 0f75c61148842b3a51fe61f315d35787b7f61d39
+  Author: Ivan Bessarabov <ivan@bessarabov.ru>
+  Date : 2013-08-06 20:14:29 +0000
+
+    to_json() can output pretty JSON
+
+    Now it is possible to write:
+
+    to_json({ a => 1 }, pretty => TRUE); 
+
+  Change: 8ab15bd777c75b57acc1ea3e33709c2709ea6e4c
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:14:27 +0000
+
+    Version 0.3 
+
+  Change: bda1d2bb0ae2a392d46ca6d3bd54bd272ab6f41f
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:14:11 +0000
+
+    Start using @QBit Dist::Zilla bundle 
+
+  Change: ac009c8ffd6eeca41207bfd2ecc7f685d7e54eab
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:13:58 +0000
+
+    Fixed cyrillic domains in get_domain()
+
+    Added some tests for get_domain() 
+
+  Change: ea88de58016887b721137816fb01e7b743680b64
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:13:54 +0000
+
+    Fixed debian package depends 
+
+  Change: 03c69a81646107071f4a66c3597c338176e307fe
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:13:42 +0000
+
+    Fixed bugs with rotation exponential notation numbers and frac zeros 
+
+  Change: e269b23c400f938e82e3c39c63f976b8cca7e81c
+  Author: Sergei Svistunov <sergei-svistunov@yandex.ru>
+  Date : 2013-08-06 20:13:29 +0000
+
+    Initial commit 
+
+================
+End of releases.
+================

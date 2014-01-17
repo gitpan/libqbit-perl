@@ -1,0 +1,40 @@
+libqbit-perl (0.6) saucy; urgency=low
+
+  * Changelog
+
+  * Merge pull request #4 from bessarabov/date_expansion
+  * The ability to expand %qbit::Date::TR_HS
+
+  * The ability to expand %qbit::Date::TR_HS
+
+  * Merge branch 'master' of github.com:QBitFramework/qbit
+
+  * Added use gettext_pp by default
+
+  * Fixed changelog
+
+  * Removed smart mathing in qbit::Date
+
+  * Moved packages from pragmaqbit to qbit
+
+  * Added files to test project with Travis CI
+
+  * to_json() can output pretty JSON
+  * Now it is possible to write:
+  * to_json({ a => 1 }, pretty => TRUE);
+
+  * Version 0.3
+
+  * Start using @QBit Dist::Zilla bundle
+
+  * Fixed cyrillic domains in get_domain()
+  * Added some tests for get_domain()
+
+  * Fixed debian package depends
+
+  * Fixed bugs with rotation exponential notation numbers and frac zeros
+
+  * Initial commit
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Thu, 15 Aug 2013 10:14:00 +0400
+
